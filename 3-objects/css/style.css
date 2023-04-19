@@ -1,0 +1,15 @@
+.squares {
+	display: flex;
+}
+
+.squares .square {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
