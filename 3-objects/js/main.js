@@ -1,4 +1,4 @@
-let Guy = {
+/*let Guy = {
     name: 'Oleg',
     lastname: 'Ovcharuk',
     age: 34,
@@ -18,4 +18,29 @@ let Guy = {
 
 console.log(Guy.getAge());
 Guy.setAge(35);
-console.log(Guy.getAge());
+console.log(Guy.getAge());*/
+
+
+
+
+let Car = {
+    marka: 'Renault',
+    model: 'Megane',
+    doors: 5,
+    color: 'black',
+
+    changeColor: function(newColor) {
+        this.color = newColor;
+    },
+    getFullName: function() {
+        return this.marka + ' ' + this.model;
+    },
+
+}
+
+console.log(Car.getFullName());
+
+console.log(Car.color);
+Car.changeColor('red');
+console.log(Car.color);
+
